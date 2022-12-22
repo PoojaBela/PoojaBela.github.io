@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+:root {
+    --text-dark: #fff;
+    --background-dark: #000;
+    --shadow-dark: 0 10px 20px rgba(218, 214, 214, 0.19), 0 6px 6px rgba(218, 214, 214, 0.23);
+
+    --text-light: #000;
+    --background-light: #fff;
+    --shadow-light:  0 10px 20px rgba(19, 19, 19, 0.19), 0 6px 6px rgba(19, 19, 19, 0.23);
+}
+
+[data-theme="light"] {
+    --background: var(--background-light);
+    --text: var(--text-light);
+    --shadow: var(--shadow-light);
+}
+
+[data-theme="dark"] {
+    --background: var(--background-dark);
+    --text: var(--text-dark);
+    --shadow: var(--shadow-dark)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background:  var(--background);
+   color: var(--text);
+   font-family: 'Poppins', sans-serif;
+   opacity: 1;
+   animation: fadein 2s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    align-items: center;
+}
+
+header h1 {
+    color: rgb( 255, 153, 153);
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+header select {
+    padding: 5px;
+    border-radius: 15px;
+    background-color: grey;
+    /* color: #fff; */
+}
+
+main {
+    padding: 10%;
+}
+
+.container {
+    height: 90vh;
+}
+
+.container .hello {
+    color: rgb( 255, 153, 153);
+    font-size: 20px;
+} 
+
+.container .name {
+    font-size: 45px;
+}
+
+.container .intro {
+    color: rgb(128, 128, 128);
+    font-size: 40px;
+    margin-bottom: 3%;
+}
+
+.container .details {
+    font-size: 20px;
+    line-height: 2;
+    margin-bottom: 5%;
+}
+
+.container span {
+    color: rgb( 255, 153, 153);
+    text-decoration-line: underline;
+    text-decoration-style: wavy; 
+}
+
+.container .contects {
+    display: flex;
+}
+
+.container .contect {
+    padding: 0 6px;
+    border: 1px solid rgb( 255, 153, 153);
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.container .contects a {
+    color: rgb( 255, 153, 153);
+}
+
+.skills-container {
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills-container h2 {
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 30px;
+}
+
+.skills-container .skill-list {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 2px solid rgb(128, 128, 128);
+    box-shadow: var(--shadow);
+    padding: 10px;
+    width: 600px;
+}
+
+.skill-list ul li {
+    list-style: none;
+    font-size: 15px;
+    color: rgb( 255, 153, 153)
+}
+
+.projects {
+    opacity: 1;
+    animation: fadein 2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 30px;
+}
+
+.project {
+    border: 2px solid rgb(128, 128, 128);
+    border-radius: 5px;
+    width: 600px;
+    box-shadow: var(--shadow);
+    margin-bottom: 6%;
+    padding: 20px 50px;
+}
+
+.project h3 {
+    color: rgb( 255, 153, 153);
+    font-size: 25px;
+    margin-bottom: 4%;
+}
+
+.project p {
+    font-size: 15px;
+    color: rgb(128, 128, 128);
+    margin-bottom: 3%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb( 255, 153, 153);
+    padding: 8px;
+    border: 1px solid rgb( 255, 153, 153);
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+.contects {
+    margin-bottom: 5px;
+}
+
+.contects a {
+    color: rgb(128, 128, 128);
+    margin-right: 10px;
+}
+
+.contects a:hover {
+    color: rgb( 255, 153, 153);
+} 
+
+.links a:hover {
+    background-color: rgba( 255, 153, 153, 0.2);
+}
+
+.container .contect:hover {
+    background-color: rgba( 255, 153, 153, 0.2);
+}
+
+
+@media (max-width: 740px) {
+
+    main {
+        padding: 15% 10%;
+    }
+  
+    .container .hello {
+        font-size: 15px;
+    } 
+    
+    .container .name {
+        font-size: 35px;
+    }
+    
+    .container .intro {
+        font-size: 35px;
+    }
+    
+    .container .details {
+        font-size: 15px;
+    }
+
+    .skills-container {
+        margin-bottom: 10%;
+    }
+    
+    .skills-container h2 {
+        font-size: 25px;
+    }
+    
+    .skills-container .skill-list {
+        width: 400px;
+    }
+    
+    .skill-list ul li {
+        font-size: 13px;
+    }
+    
+    .projects h2 {
+        font-size: 25px;
+    }
+    
+    .project {
+        width: 400px;
+    }
+    
+    .project h3 {
+        font-size: 20px;
+    }
+    
+    .project p {
+        font-size: 13px;
+        margin-bottom: 5%;
+    }
+
+    .links a {
+        padding: 5px;
+        font-size: 10px;
+    }
+    
+}
+
+@media (max-width: 422px) {
+  
+    main {
+        padding: 30% 10%;
+    }
+  
+    .container .hello {
+        font-size: 13px;
+    } 
+    
+    .container .name {
+        font-size: 25px;
+        margin-bottom: 3%;
+    }
+    
+    .container .intro {
+        font-size: 25px;
+        margin-bottom: 6%;
+    }
+    
+    .container .details {
+        font-size: 13px;
+        margin-bottom: 10%;
+    }
+
+    .skills-container {
+        margin-bottom: 15%;
+    }
+    
+    .skills-container h2 {
+        font-size: 25px;
+    }
+    
+    .skills-container .skill-list {
+        width: 300px;
+    }
+    
+    .skill-list ul li {
+        font-size: 13px;
+    }
+    
+    .projects h2 {
+        text-align: center;
+        margin-bottom: 4%;
+        font-size: 25px;
+    }
+    
+    .project {
+        width: 300px;
+    }
+    
+    .project h3 {
+        font-size: 20px;
+        margin-bottom: 6%;
+    }
+    
+    .project p {
+        font-size: 13px;
+        margin-bottom: 8%;
+    }
+    
+    .links a {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 316px) {
+
+    .skills-container .skill-list, 
+    .project {
+        width: 200px;
+    } 
+
+    .project {
+        padding: 10px 15px;
+    }
+
+    .links a {
+        padding: 2px;
+        font-size: 10px;
+    }
+}
+
+@keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
