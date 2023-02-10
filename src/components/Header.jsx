@@ -16,7 +16,7 @@ const Header = () => {
                         </div>
                         <p className="font-medium text-sm">Twitter</p>
                     </a>
-                    <a href="" target="_blank" className="flex flex-col items-center gap-2 cursor-pointer sm:flex-row">
+                    <a href="https://www.linkedin.com/in/pooja-belaramani" target="_blank" className="flex flex-col items-center gap-2 cursor-pointer sm:flex-row">
                         <div className="bg-[linear-gradient(-33deg,_#FFB6C1_5%,_#FFDAB9_50%,_#ADD8E6)] p-1 rounded-md hover:scale-105 ease-in-out duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-linkedin stroke-[#0a0a0a]"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>                        
                         </div>
