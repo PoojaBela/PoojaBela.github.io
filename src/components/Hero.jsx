@@ -1,6 +1,6 @@
 const HeroSection = () => {
     return ( 
-        <section className="flex flex-col gap-10 h-[60vh]">
+        <section className="flex flex-col gap-10 h-[40vh] md:h-[60vh]">
             <div className="">
                 <p className="text-[14px] md:text-[20px]">Hii👋 I'm, </p>
                 <p className="text-[30px] md:text-[40px] font-bold">Pooja Belaramani</p>
