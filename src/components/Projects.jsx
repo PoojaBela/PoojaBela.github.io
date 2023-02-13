@@ -2,6 +2,12 @@ const Projects = () => {
 
     const projects = ([
         {
+            name: '📃 Content Crafter',
+            description: 'Content Crafter is AI-powered writing tool. Write captivating social media posts, blog articles, and more',
+            demo: 'https://content-crafter.vercel.app/',
+            code: 'https://github.com/poojabela/content-crafter',
+        },
+        {
             name: '📒 NotePal',
             description: 'Notekeeper is a web application for taking and managing notes build using Nextjs and Firebase.',
             demo: 'https://note-pal.vercel.app',
