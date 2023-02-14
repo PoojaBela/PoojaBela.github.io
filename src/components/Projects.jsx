@@ -2,10 +2,16 @@ const Projects = () => {
 
     const projects = ([
         {
+            name: '💫 MyDukaan.io (Clone)  ',
+            description: 'A clone of MyDukaan.io which helps you launch your online store in less than 30 seconds.',
+            demo: 'https://dukkan-clone.vercel.app/',
+            code: 'https://github.com/poojabela/dukkan-clone'
+        },
+        {
             name: '📃 Content Crafter',
             description: 'Content Crafter is AI-powered writing tool. Write captivating social media posts, blog articles, and more',
             demo: 'https://content-crafter.vercel.app/',
-            code: 'https://github.com/poojabela/content-crafter',
+            code: 'https://github.com/poojabela/content-crafter'
         },
         {
             name: '📒 NotePal',
