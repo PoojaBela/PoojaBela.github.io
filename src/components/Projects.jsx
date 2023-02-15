@@ -8,6 +8,12 @@ const Projects = () => {
             code: 'https://github.com/poojabela/dukkan-clone'
         },
         {
+            name: '✨ Medium.com (Clone)',
+            description: 'Clone of which helps yow share and write blog',
+            demo: 'medium-clone-poojabela.vercel.app',
+            code: 'https://github.com/poojabela/medium-clone'
+        },
+        {
             name: '📃 Content Crafter',
             description: 'Content Crafter is AI-powered writing tool. Write captivating social media posts, blog articles, and more',
             demo: 'https://content-crafter.vercel.app/',
