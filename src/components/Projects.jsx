@@ -9,8 +9,8 @@ const Projects = () => {
         },
         {
             name: '✨ Medium.com (Clone)',
-            description: 'Clone medium.com which helps yow share and write blog',
-            demo: 'medium-clone-poojabela.vercel.app',
+            description: 'Clone of medium.com which helps yow share and write blog',
+            demo: 'https://medium-clone-poojabela.vercel.app',
             code: 'https://github.com/poojabela/medium-clone'
         },
         {
