@@ -3,7 +3,7 @@ const Projects = () => {
     const projects = ([
         {
             name: '💫 MyDukaan.io (Clone) build using Next.js and styled-components',
-            description: 'A clone of MyDukaan.io ',
+            description: 'A clone of MyDukaan.io landing page build using Next.js and styled-components',
             demo: 'https://dukkan-clone.vercel.app/',
             code: 'https://github.com/poojabela/dukkan-clone'
         },
