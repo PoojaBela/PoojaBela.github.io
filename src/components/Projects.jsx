@@ -2,14 +2,14 @@ const Projects = () => {
 
     const projects = ([
         {
-            name: '💫 MyDukaan.io (Clone)  ',
-            description: 'A clone of MyDukaan.io which helps you launch your online store in less than 30 seconds.',
+            name: '💫 MyDukaan.io (Clone) build using Next.js and styled-components',
+            description: 'A clone of MyDukaan.io ',
             demo: 'https://dukkan-clone.vercel.app/',
             code: 'https://github.com/poojabela/dukkan-clone'
         },
         {
             name: '✨ Medium.com (Clone)',
-            description: 'Clone of medium.com which helps yow share and write blog',
+            description: 'Clone of medium.com landing page build using Next.js and TailwindCSS',
             demo: 'https://medium-clone-poojabela.vercel.app',
             code: 'https://github.com/poojabela/medium-clone'
         },
