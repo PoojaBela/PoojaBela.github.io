@@ -2,6 +2,12 @@ const Projects = () => {
 
     const projects = ([
         {
+            name: '🎵 HarmonyHub',
+            description: 'Find Your Rhythm with HarmonyHub - Your Ultimate Music Destination',
+            demo: 'https://harmony-hub.vercel.app/',
+            code: 'https://github.com/poojabela/HarmonyHub'
+        },
+        {
             name: '💫 MyDukaan.io (Clone)',
             description: 'A clone of MyDukaan.io landing page build using Next.js and styled-components',
             demo: 'https://dukkan-clone.vercel.app/',
